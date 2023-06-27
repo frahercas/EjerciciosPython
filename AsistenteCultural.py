@@ -28,7 +28,7 @@ trainer = ListTrainer(chatbot)
 #Agregamos los dialogos 
 trainer.train([
     "chatterbot.corpus.spanish",
-
+##Dentro de esta seccion escribe lo que quieres que se entrenado dentro de este algorito dividido por comas, palabras de activacion y rspuesta en ese orden
     " asistente",
     """Hola, Yo soy un asistente virtual, intenta preguntarme algo sobre lugares culturales""",
     "dime tres museos en ciudad de mexico",
