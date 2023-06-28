@@ -14,7 +14,7 @@ type(Variable1)
 type(Variable2)
 print("El tipo de variable es:",type(Variable1))
 print("El tipo de variable es:",type(Variable2))
-    # Primer If
+    # codicion IF
 numero1= 5
 numero2= 2
 if numero1<numero2:
