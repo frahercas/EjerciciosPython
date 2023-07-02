@@ -1,9 +1,10 @@
+#instalara la libreria "chatterbpt" de la siguiente forma  'pip install chatterbot'
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 
 import speech_recognition as sr# Reconoce la voz
 import pyttsx3
-
+ 
  
 import time 
 global name 
