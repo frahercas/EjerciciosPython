@@ -1,4 +1,4 @@
-    #Devuelve el resto de una division
+     #Devuelve el resto de una division
 modulo=24%5
 print("el resto de la division es:", modulo)
     # devuelve el exponente
