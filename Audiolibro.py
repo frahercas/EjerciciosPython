@@ -14,7 +14,7 @@ for page_num in range(len(pdf_reader.pages)):
     speaker.runAndWait()
     
     # Guardar el texto en un archivo de audio
-    audio_file = fr'XXXX.mp3' #Eb lugar de "XXXX" escribe el path donde deseas guardar el audio generaado seguido de la extención .mp3
+    audio_file = fr'XXXX.mp3' #En lugar de "XXXX" escribe el path donde deseas guardar el audio generaado seguido de la extención .mp3
     engine.save_to_file(text, audio_file)
     engine.runAndWait()
 
