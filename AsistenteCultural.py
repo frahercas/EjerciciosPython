@@ -1,15 +1,11 @@
 #instalara la libreria "chatterbpt" de la siguiente forma  'pip install chatterbot'
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
-
 import speech_recognition as sr# Reconoce la voz
 import pyttsx3
- 
- 
 import time 
 global name 
 name= 'asistente cultural'
-
 # Creamos una instancia del Chatbot
 chatbot = ChatBot(
                     name,
@@ -22,7 +18,6 @@ chatbot = ChatBot(
                         }
                                 ]
                 )
-
 #Generamos una instancia de entrenamiento para nuestro chatbot
 trainer = ListTrainer(chatbot)
 
