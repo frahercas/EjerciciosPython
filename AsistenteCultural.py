@@ -20,7 +20,6 @@ chatbot = ChatBot(
                 )
 #Generamos una instancia de entrenamiento para nuestro chatbot
 trainer = ListTrainer(chatbot)
-
 #Agregamos los dialogos 
 trainer.train([
     "chatterbot.corpus.spanish",
